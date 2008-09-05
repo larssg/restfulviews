@@ -11,7 +11,7 @@ Example
 
 There are 5 methods available at the moment: index_link, show_link, new_link, edit_link and destroy_link.
 
-You can call all methods using either an instance of the object you want to link to (e.g. show_link(post)) or a symbol or (if applicable) an ID (e.g. show_link(:post, 3)).
+You can call all methods using either an instance of the object you want to link to, e.g. show_link(post), or a symbol and (if applicable) an ID, e.g. show_link(:post, 3).
 
 Example:
 
