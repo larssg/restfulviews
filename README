@@ -1,13 +1,30 @@
 RestfulViews
 ============
 
-Introduction goes here.
+RestfulViews contains helpers to make your views more consistent by setting default CSS classes, defining standard labels, etc.
+
+Comments, patches, ideas, etc. are very welcome at: restfulviews at larssehested dot com.
 
 
 Example
 =======
 
-Example goes here.
+There are 5 methods available at the moment: index_link, show_link, new_link, edit_link and destroy_link.
+
+You can call all methods using either an instance of the object you want to link to (e.g. show_link(post)) or a symbol or (if applicable) an ID (e.g. show_link(:post, 3)).
+
+Example:
+
+  <% index_link(post) %>
+
+will render:
+
+  <a href="/posts" class="post index index_post">Show all</a>
+
+
+Thanks to
+=========
+Ingo Weiss, the creator of ResourcefulViews which is the main inspiration for this plugin.
 
 
 Copyright (c) 2008 Lars Sehested and Lars Høg, released under the MIT license
